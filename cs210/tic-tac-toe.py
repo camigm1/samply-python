@@ -123,7 +123,7 @@ def playerTurn():
                 if line_1[0] =='O' and line_2[0] =='O' and line_3[0] == 'O':
                     main()
                     break
-                elif line_1[0] =='O' and line_1[1] == 'O' and line_1[2] == 'O'
+                elif line_1[0] =='O' and line_1[1] == 'O' and line_1[2] == 'O':
                     main()
                     break
                 elif line_1[0] == 'O' and line_2[1] == 'O' and line_3[2] == 'O':
@@ -134,23 +134,77 @@ def playerTurn():
                 if line_1[1] =='O' and line_2[1] =='O' and line_3[1] == 'O':
                     main()
                     break
-                elif line_1[0] =='O' and line_1[1] == 'O' and line_1[2] == 'O'
+                elif line_1[0] =='O' and line_1[1] == 'O' and line_1[2] == 'O':
                     main()
                     break
             elif playerTwo == line_1[2]:
                 line_1[2] = 'O'
+                if line_1[0] =='O' and line_1[1] == 'O' and line_1[2] == 'O':
+                    main()
+                    break
+                elif line_1[2] =='O' and line_2[2] =='O' and line_3[2] == 'O':
+                    main()
+                    break
+                elif line_3[0] =='O' and line_2[1] == 'O' and line_1[2] == 'O':
+                    main()
+                    break
             elif playerTwo == line_2[0]:
                 line_2[0] = 'O'
+                if line_1[0] =='O' and line_2[0] =='O' and line_3[0] == 'O':
+                    main()
+                    break
+                elif line_2[0] =='O' and line_2[1] == 'O' and line_2[2] =='O':
+                    main()
+                    break
             elif playerTwo == line_2[1]:
                 line_2[1] = 'O'
+                if line_1[1] =='O' and line_2[1] =='O' and line_3[1] == 'O':
+                    main()
+                    break
+                elif line_2[0] =='O' and line_2[1] == 'O' and line_2[2] =='O':
+                    main()
+                    break
+                elif line_3[0] =='O' and line_2[1] == 'O' and line_1[2] == 'O':
+                    main()
+                    break
             elif playerTwo == line_2[2]:
                 line_2[2] = 'O'
+                if line_1[2] =='O' and line_2[2] =='O' and line_3[2] == 'O':
+                    main()
+                    break
+                elif line_2[0] =='O' and line_2[1] == 'O' and line_2[2] =='O':
+                    main()
+                    break
             elif playerTwo == line_3[0]:
                 line_3[0] = 'O'
+                if line_1[0] =='O' and line_2[0] =='O' and line_3[0] == 'O':
+                    main()
+                    break
+                elif line_3[0] == 'O' and line_3[1] == 'O' and line_3[2] == 'O':
+                    main()
+                    break
+                elif line_3[0] =='O' and line_2[1] == 'O' and line_1[2] == 'O':
+                    main()
+                    break
             elif playerTwo == line_3[1]:
                 line_3[1] = 'O'
+                if line_1[1] =='O' and line_2[1] =='O' and line_3[1] == 'O':
+                    main()
+                    break
+                elif line_3[0] == 'O' and line_3[1] == 'O' and line_3[2] == 'O':
+                    main()
+                    break
             elif playerTwo == line_3[2]:
                 line_3[2] = 'O'
+                if line_1[2] =='O' and line_2[2] =='O' and line_3[2] == 'O':
+                    main()
+                    break
+                elif line_3[0] == 'O' and line_3[1] == 'O' and line_3[2] == 'O':
+                    main()
+                    break
+                elif line_1[0] == 'O' and line_2[1] == 'O' and line_3[2] == 'O':
+                    main()
+                    break
             i+=1
             turn+=1
             board()
